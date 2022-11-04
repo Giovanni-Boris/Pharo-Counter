@@ -17,7 +17,7 @@ CounterTest >> testDecrement [
 	| c | 
 	c := Counter new.
 	c count: 2 ; decrement; decrement. 
-	self assert: c count equals: 0
+	self assert: c count equals: 1
 ]
 
 { #category : #tests }
