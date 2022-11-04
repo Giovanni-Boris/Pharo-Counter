@@ -27,7 +27,7 @@ Counter >> count: value [
 		
 ]
 
-{ #category : #API }
+{ #category : #accessing }
 Counter >> decrement [
 	count := count - 1
 ]
